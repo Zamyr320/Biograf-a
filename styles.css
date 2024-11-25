@@ -1,6 +1,6 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-image: linear-gradient(rgb(123, 11, 11), rgb(15, 141, 67));
+    background-image: linear-gradient(rgb(123, 11, 11), rgb(30, 15, 141));
     margin: 1;
     padding: 1;
     background-color: #1b839a;
@@ -9,7 +9,7 @@ body {
 }
 
 div.subtitulos {
-    color: rgb(114, 74, 243);
+    color: rgb(74, 217, 243);
 }
 
 header,
