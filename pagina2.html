@@ -71,7 +71,7 @@
             </div>
         </div>
         <button class="btn btn-success" onclick="cambiarcolor('color1', 'green', 'color2')">Cambiar Color 1</button>
-        <button class="btn btn-danger"onclick="cambiarcolor('color2','red')">Cambiar Color 2</button>
+        <button class="btn btn-danger"onclick="cambiarcolor('color2','red', 'color1')">Cambiar Color 2</button>
         <br>
        
         <div class="card">
@@ -100,9 +100,11 @@
         const texto = document.querySelector('.card-text') //sirve para atrapar elementos por su classe
         texto.textContent = "Nuevo contenido generado";
     }
-    function cambiarcolor(idElemento, color, idElemento){
+    function cambiarcolor(idElemento, color, idElemento2){
         const d = document.getElementById(idElemento);
+        const e = document.getElementById(idElemento2)
         d.style.backgroundColor = color;
+        e.style.backgroundColor = 'transparent';
     }
 
 
