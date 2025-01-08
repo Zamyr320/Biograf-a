@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    text-align: center;
+    background-image: linear-gradient(rgb(34, 255, 255), rgb(55, 200, 89));
+    background-color: aquamarine;
+}
+.card{
+    text-align: center;
+}
+
+.Video-C {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.botton{
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    margin: 25px;
+    width: 400px;
+    height: auto;
+}
+
+.gallery2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery2 img {
+    margin: 25px;
+    width: 400px;
+    height: auto;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    text-align: left;
+
+}
+
+.column {
+    border: 10px solid #ccc;
+    padding: 10px;
+    background-color: blanchedalmond;
+    background-image: red,blue;
+}
+
