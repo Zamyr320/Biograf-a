@@ -7,6 +7,7 @@ body {
 }
 .card{
     text-align: center;
+    background-color: rgb(163, 243, 249);
 }
 
 .Video-C {
@@ -53,7 +54,32 @@ body {
 .column {
     border: 10px solid #ccc;
     padding: 10px;
-    background-color: blanchedalmond;
-    background-image: red,blue;
+    background-color: rgb(204, 203, 248);
 }
+section {
+    margin: auto;
+    display: flex;
+    width: 800px;
+    height: 430px;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.gale{
+background-color: aquamarine;
+background-image: linear-gradient(blue,red);
+}
+
 
